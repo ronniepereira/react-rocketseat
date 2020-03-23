@@ -1,12 +1,17 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 
 class Header extends Component {
     render() {
         return (
             <header className="header">
-                <p className="logo">Facebook</p>
-                <p className="meu-perfil">Meu Perfil</p>
+                <nav>
+                    <img src="https://i.imgur.com/KDIDiSE.png" />
+                    <div>
+                        <span>Meu Perfil</span>
+                        <i className="material-icons">account_circle</i>
+                    </div>
+                </nav>
             </header>
         )
     }
